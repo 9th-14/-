@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\SetFolderComment]
+@="编辑文件夹注释"
+"Icon"="shell32.dll,70"
+
+[HKEY_CLASSES_ROOT\Directory\shell\SetFolderComment\command]
+@="\"C:\\xzai\\python3.10\\python.exe\" \"C:\\Users\\9th\\Desktop\\folder comment\\folder_comment.py\" \"%V\""
